@@ -23,7 +23,7 @@ export default function Pricing() {
           >
             <Text fontWeight={"bold"}>Premium PRO</Text>
             <Heading fontSize={"60px"}>$329</Heading>
-            <Button mt={"37px"} w="282px" bg={"#805AD5"} color="white">
+            <Button mt={"37px"} w={{base: "180px", md: "220px", lg:"282px"}} bg={"#805AD5"} color="white">
               Get Started
             </Button>
           </Box>
